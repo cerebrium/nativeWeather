@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     try {
       navigator.geolocation.getCurrentPosition( (initialposition) => {
-        fetch('http://10.1.7.200:3001/weather/current', {
+        fetch('https://backendweather.herokuapp.com/weather/current', {
           method: 'POST',
           headers: {
             Accept: 'application/json',

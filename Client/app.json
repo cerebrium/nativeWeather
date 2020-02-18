@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Weather App",
+    "name": "Weathereros App",
     "slug": "Client",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -24,7 +24,10 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.Nshankland.weatherApp",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+      
     }
   }
 }
